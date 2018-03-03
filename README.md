@@ -21,10 +21,12 @@ $cw({
 ```
 
 # Options
-title: The title of the window (text)
-content: The content of the window (text)
-theme: dark | light
-okay.text: The text of the Okay button
-okay.action: The callback function of the Okay button
-cancel.text: The text of the Cancel button
-cancel.action: The callback function of the Cancel button
+|Option|Description|
+|--------|-----------|
+|title|The title of the window (text)|
+|content|The content of the window (text)|
+|theme|dark | light|
+|okay.text|The text of the Okay button|
+|okay.action|The callback function of the Okay button|
+|cancel.text|The text of the Cancel button|
+|cancel.action|The callback function of the Cancel button|
