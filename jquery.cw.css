@@ -1,0 +1,20 @@
+.cw-wrapper { width: 460px; background-color: rgb(25, 25, 25); color: #fff; z-index: 99999; border-radius: 2px; box-shadow: 0 0 5px #000; display: block; position: fixed; top: -300px; opacity: 0.0; overflow: hidden; }
+.cw-wrapper.dark { background-color: rgb(25, 25, 25); color: #fff; }
+.cw-wrapper.light { background-color: rgb(235, 235, 235); color: #111; }
+.cw-header { margin: 0 15px; height: 20px; padding: 15px 0; border-bottom: 1px solid rgb(35, 35, 35); font-size: 14px; font-weight: bold; }
+.cw-wrapper.dark > .cw-header { border-bottom: 1px solid rgb(35, 35, 35); }
+.cw-wrapper.light > .cw-header { border-bottom: 1px solid rgb(195, 195, 195); }
+.cw-content { padding: 15px; font-size: 14px; min-height: 60px; }
+.cw-button { width: 200px; height: 20px; padding: 15px; float: left; text-align: center; font-size: 14px; cursor: default; background-color: rgb(30, 30, 30); }
+.cw-button.blue { background-color: #285991; }
+.cw-wrapper.dark > .cw-button { background-color: rgb(30, 30, 30); }
+.cw-wrapper.light > .cw-button { background-color: rgb(195, 195, 195); }
+.cw-wrapper.dark > .cw-button:hover { background-color: rgb(35, 35, 35); }
+.cw-wrapper.light > .cw-button:hover { background-color: rgb(205, 205, 205); }
+.cw-wrapper.dark > .cw-button.blue { background-color: #285991; }
+.cw-wrapper.light > .cw-button.blue { background-color: #285991; }
+.cw-wrapper.dark > .cw-button.blue:hover { background-color: #2e66a7; }
+.cw-wrapper.light > .cw-button.blue:hover { background-color: #2e66a7; }
+.cw-button:hover { background-color: rgb(35, 35, 35); }
+.cw-button.blue:hover { background-color: #2e66a7; }
+#cw-screencover { background-color: rgba(0, 0, 0, .5); z-index: 99998; position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.0; }
