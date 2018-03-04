@@ -1,5 +1,5 @@
 # jquery.cw
-A tiny jQuery plugin that lets you display confirm windows.
+A tiny jQuery plugin that lets you display confirm windows in javascript.
 
 # Example (dark theme)
 ```javascript
